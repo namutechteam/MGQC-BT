@@ -1,0 +1,274 @@
+{
+  "arch": {
+    "n_qubits": 11,
+    "n_rounds": 3,
+    "n_reupload": 1,
+    "entangler": "zz",
+    "alpha_mode": "bytype",
+    "bond_type_scheme": "elem_order",
+    "pad_entangle": true,
+    "use_cnot": true,
+    "theta_scale": 1.0,
+    "encode_source": "eig",
+    "target": "eAT",
+    "residual": true,
+    "epochs": 100,
+    "optimizer": "adam"
+  },
+  "training": {
+    "config": "A1",
+    "seed": 42,
+    "n_train": 530,
+    "n_test": 160,
+    "n_test_bundled": 160,
+    "n_types": 24,
+    "comp_r2": 0.9664562442919681,
+    "res_mean": 1.340646671245472e-16,
+    "res_std": 1.0154342790534931,
+    "gmax": 448.81939560793995
+  },
+  "bond_types": [
+    {
+      "id": 0,
+      "label": "H-C",
+      "count": 1836
+    },
+    {
+      "id": 1,
+      "label": "C-C",
+      "count": 798
+    },
+    {
+      "id": 2,
+      "label": "C=C",
+      "count": 526
+    },
+    {
+      "id": 3,
+      "label": "C=N",
+      "count": 320
+    },
+    {
+      "id": 4,
+      "label": "C=O",
+      "count": 293
+    },
+    {
+      "id": 5,
+      "label": "C#C",
+      "count": 279
+    },
+    {
+      "id": 6,
+      "label": "C-O",
+      "count": 228
+    },
+    {
+      "id": 7,
+      "label": "C#N",
+      "count": 220
+    },
+    {
+      "id": 8,
+      "label": "H-N",
+      "count": 207
+    },
+    {
+      "id": 9,
+      "label": "C-N",
+      "count": 144
+    },
+    {
+      "id": 10,
+      "label": "H-O",
+      "count": 99
+    },
+    {
+      "id": 11,
+      "label": "N-O",
+      "count": 78
+    },
+    {
+      "id": 12,
+      "label": "C-S",
+      "count": 77
+    },
+    {
+      "id": 13,
+      "label": "O=S",
+      "count": 32
+    },
+    {
+      "id": 14,
+      "label": "N-N",
+      "count": 25
+    },
+    {
+      "id": 15,
+      "label": "N-S",
+      "count": 15
+    },
+    {
+      "id": 16,
+      "label": "C-Cl",
+      "count": 13
+    },
+    {
+      "id": 17,
+      "label": "N=N",
+      "count": 7
+    },
+    {
+      "id": 18,
+      "label": "C#O",
+      "count": 4
+    },
+    {
+      "id": 19,
+      "label": "O#S",
+      "count": 3
+    },
+    {
+      "id": 20,
+      "label": "C=S",
+      "count": 2
+    },
+    {
+      "id": 21,
+      "label": "N#N",
+      "count": 2
+    },
+    {
+      "id": 22,
+      "label": "O-S",
+      "count": 2
+    },
+    {
+      "id": 23,
+      "label": "N=O",
+      "count": 1
+    }
+  ],
+  "alpha_learned": [
+    {
+      "id": 0,
+      "label": "H-C",
+      "alpha": 0.49624561934175904
+    },
+    {
+      "id": 1,
+      "label": "C-C",
+      "alpha": -0.0388410347479041
+    },
+    {
+      "id": 2,
+      "label": "C=C",
+      "alpha": -0.21269056735387612
+    },
+    {
+      "id": 3,
+      "label": "C=N",
+      "alpha": -0.03425231479932224
+    },
+    {
+      "id": 4,
+      "label": "C=O",
+      "alpha": -0.1407886323260971
+    },
+    {
+      "id": 5,
+      "label": "C#C",
+      "alpha": 0.7752506149153693
+    },
+    {
+      "id": 6,
+      "label": "C-O",
+      "alpha": 0.17652720916895706
+    },
+    {
+      "id": 7,
+      "label": "C#N",
+      "alpha": 0.1280679649229279
+    },
+    {
+      "id": 8,
+      "label": "H-N",
+      "alpha": -0.4018989963273586
+    },
+    {
+      "id": 9,
+      "label": "C-N",
+      "alpha": 0.3231953482415417
+    },
+    {
+      "id": 10,
+      "label": "H-O",
+      "alpha": 0.41968448446566325
+    },
+    {
+      "id": 11,
+      "label": "N-O",
+      "alpha": 1.4388486553162303
+    },
+    {
+      "id": 12,
+      "label": "C-S",
+      "alpha": 0.06986919235259088
+    },
+    {
+      "id": 13,
+      "label": "O=S",
+      "alpha": 0.8693812718513079
+    },
+    {
+      "id": 14,
+      "label": "N-N",
+      "alpha": 1.229285810870365
+    },
+    {
+      "id": 15,
+      "label": "N-S",
+      "alpha": 0.8250213711272285
+    },
+    {
+      "id": 16,
+      "label": "C-Cl",
+      "alpha": 1.2099450541781027
+    },
+    {
+      "id": 17,
+      "label": "N=N",
+      "alpha": 0.5175374855715495
+    },
+    {
+      "id": 18,
+      "label": "C#O",
+      "alpha": 0.49382809033762964
+    },
+    {
+      "id": 19,
+      "label": "O#S",
+      "alpha": -0.1443173740057174
+    },
+    {
+      "id": 20,
+      "label": "C=S",
+      "alpha": 0.9304424027829821
+    },
+    {
+      "id": 21,
+      "label": "N#N",
+      "alpha": 1.2329397360355765
+    },
+    {
+      "id": 22,
+      "label": "O-S",
+      "alpha": -0.25381477591107143
+    },
+    {
+      "id": 23,
+      "label": "N=O",
+      "alpha": 1.7471575699326993
+    }
+  ]
+}

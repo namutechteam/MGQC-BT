@@ -1,0 +1,19 @@
+{
+  "config": "A1",
+  "seed": 42,
+  "N_test": 160,
+  "shots": 4096,
+  "mae": {
+    "qiskit_statevector_noiseless": 0.3833159345654872,
+    "qiskit_aer_shot_based_shrink": 0.4885710355064766,
+    "qiskit_aer_shot_based_noshrink": 0.9776794582083637,
+    "mean_abs_diff_shrink": 0.3352809371326197
+  },
+  "r2_shot_based": 0.9916953550725863,
+  "paper_reported": {
+    "mean": 0.335,
+    "sd": 0.026
+  },
+  "within_2sigma": false,
+  "wall_clock_s": 24.09558367729187
+}

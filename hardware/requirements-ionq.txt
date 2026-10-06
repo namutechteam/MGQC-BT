@@ -1,0 +1,10 @@
+# IonQ 실행 환경용 — mgqc_ionq_batch.py 실행에 필요한 최소 의존성
+#
+# 설치:  pip install -r requirements-ionq.txt
+#
+# PennyLane, scikit-learn 등 학습 쪽 라이브러리는 전혀 필요하지 않습니다.
+# IonQ 서버의 Python 3.10+ 환경 안에 아래 패키지만 있으면 됨.
+
+numpy>=1.24
+qiskit>=1.0
+qiskit-ionq>=0.5

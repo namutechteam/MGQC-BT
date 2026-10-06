@@ -1,0 +1,16 @@
+# 학습 서버용 — code_release/mgqc 패키지 import 필요
+#
+# 이 환경은 train_mgqc_bt.py 실행용입니다.
+# code_release/requirements.txt 와 동일 버전으로 pin (v6.9 재현성).
+#
+# 설치:  python3 -m venv venv && source venv/bin/activate
+#        pip install -r requirements-train.txt
+#
+# requires the mgqc package from the parent code_release/ directory on the import path.
+
+# v6.9 pin (code_release/requirements.txt 와 동일)
+pennylane==0.45.1
+pennylane-lightning==0.45.1
+numpy>=1.24,<2.0
+scipy>=1.10
+scikit-learn>=1.3

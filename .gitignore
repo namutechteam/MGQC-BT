@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+logs/
+node_modules/
+.ipynb_checkpoints/
+
+# rendered figures and manuscript build scripts are kept outside the release
+figures/
+manuscript/
+
+# earlier-stage artefacts in the data caches; only the .pkl is read
+data/bench_*/fig_*.csv
+data/bench_*/*.png
+data/bench_*/predictions.npz
+data/bench_*/results.json
+.release_marker
+
+# optional batched GPU simulator; not used for any reported result (selftest T8/T9 skip without it)
+mgqc/_gpu.py
+
+# staging folder for files to be deleted by hand
+_delete/
